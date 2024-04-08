@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html', {
+"title": "Главная"
+})
+
+<body>
+
+	@@include('html/header.html', {})
+	<main>
+		<span>уничтожьте всех инопланетных захватчиков!</span>
+		<img src="@img/icon-paint.png">
+		<div class='field' style="position: relative;">
+			<!-- <div style="width: 20px; height: 20px; border: solid 1px black"></div>
+        <div style="width: 20px; height: 20px; border: solid 1px black"></div> -->
+			<!-- <canvas id="canvas" width="600" height="600" style="border: solid 1px black"></canvas> -->
+		</div>
+	</main>
+	@@include('html/footer.html', {})
+<!--  -->
+	<script type="module" src="./js/app.min.js"></script>
+</body>
+
+</html>
